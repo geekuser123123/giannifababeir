@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  background: #1c1e21;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.logo h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 65px;
+  color: #c0a062;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.header-navs ul li,
+.header-navs ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.header-navs ul {
+  display: inline-flex;
+}
+.header-navs ul li {
+  margin: 0 6px;
+  font-size: 33px;
+}
+.fa {
+  color: #fff;
+}
+.fa:hover {
+  color: #c0a062;
+  transition: 0.5s;
+}
+main {
+  display: flex;
+  max-width: 1600px;
+  min-height: 400px;
+  align-items: center;
+}
+main h1 {
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  font-size: 82px;
+  letter-spacing: 5px;
+  color: #fff;
+}
+main h2 {
+  font-family: "Alex Brush", cursive;
+  font-size: 25px;
+  margin: -30px 0 25px 0px;
+  color: #fff;
+}
+main p {
+  line-height: 35px;
+  color: #fff;
+  text-align: justify;
+  max-width: 900px;
+}
+
+.giannimain {
+  border-right: solid 3px #c0a062;
+  padding: 0 30px;
+}
+
+.skills {
+  opacity: 0.2;
+  font-size: 115px;
+  transform: rotate(90deg);
+}
+.skillsection ul li {
+  list-style-type: none;
+  text-align: right;
+  color: violet;
+  margin: 20px 10px;
+  font-size: 0.98rem;
+  font-weight: 450;
+}
+.lessthan {
+  position: absolute;
+  top: 73px;
+  transform: translate(-39%, -50%);
+  opacity: 0.1;
+  /* width: 900px; */
+}
+.wordskills {
+  position: relative;
+}
+
+.secondcont {
+  display: flex;
+  margin: 0 40px;
+}
+.whats {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.secondcont h1 {
+  color: #c0a062;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+.secondcont p {
+  font-family: "Poppins";
+  text-align: justify;
+  color: #fff;
+  max-width: 600px;
+  line-height: 28px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.secondcont ul li {
+  list-style-type: disc;
+  color: #fff;
+}
+.secondcontwrapper {
+  background: rgb(0, 0, 0, 0.5);
+  min-height: 350px;
+  align-items: center;
+  display: flex;
+}
+.otherservices {
+  flex: 1;
+}
+.list-item {
+  display: flex;
+  max-width: 700px;
+  justify-content: space-between;
+}
+.list-item ul li {
+  margin: 7px 0;
+  list-style-type: square;
+}
+
+.whats2 {
+  text-align: right;
+}
+
+.projects h1 {
+  text-align: center;
+  font-size: 115px;
+  text-transform: uppercase;
+  opacity: 0.34;
+  font-family: "Teko", sans-serif;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  color: violet;
+}
+.projectcontainer {
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.boxuno {
+  width: 500px;
+  height: 400px;
+}
+.boxuno p {
+  border: solid 1px #000;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 1px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.projectcontainer {
+  margin-bottom: 60px;
+}
+.projectcontainer .box {
+  width: 500px;
+  height: 350px;
+  background-position: top;
+  transition: ease-in-out 2s;
+  background-color: #000;
+  border: solid 1px #000;
+  cursor: pointer;
+}
+.projectcontainer .box.box1 {
+  background: url(./screencapture-marykay-ph-mkpweb08-Products-product-cat-asp-2022-11-29-19_42_43.png);
+  background-size: cover;
+}
+.projectcontainer .box.box2 {
+  background: url(./screencapture-file-D-WebDevFiles-New-website-index-html-2022-11-29-21_09_00.png);
+  background-size: cover;
+}
+.projectcontainer .box.box3 {
+  background: url(./screencapture-marykay-ph-mkpweb08-skinanalyzer-2022-11-29-19_57_13.png);
+  background-size: cover;
+}
+.projectcontainer .box:hover {
+  background-position: bottom;
+}
+.arrow {
+  color: #c0a062;
+}
+.projectcontainer a {
+  text-decoration: none;
+}
+.thirdcontentwrapper {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  height: 700px;
+  display: flex;
+  align-items: center;
+  clip-path: polygon(0 20%, 100% 9%, 100% 75%, 0 92%);
+}
+.thirdcontent {
+  width: 1600px;
+  margin: 0px auto;
+}
+.aso {
+  align-items: center;
+  display: flex;
+}
+.aso h1 {
+  font-size: 100px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+  color: #c0a062;
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "montserrat";
+  letter-spacing: 2px;
+}
+button {
+  padding: 15px 25px;
+  border: unset;
+  color: #fff;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  font-weight: bolder;
+  font-size: 14px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  margin-left: 8%;
+  border: solid 1px #fff;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #281515;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+button a:hover {
+  color: #e8e8e8;
+}
+
+button:hover::before {
+  width: 100%;
+}
+footer {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+footer span {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "montserrat";
+}
+footer h1 {
+  font-size: 40px !important;
+}
+
+/* --------------------------------------------------------------- */
+@media screen and (max-width: 1599px) {
+  main h1 {
+    font-size: 79px;
+  }
+  main p {
+    width: auto;
+  }
+}
+@media screen and (max-width: 1526px) {
+  header {
+    max-width: 1400px;
+  }
+  main h1 {
+    font-size: 70px;
+  }
+  main p {
+    max-width: 800px;
+  }
+  .todo {
+    max-width: 500px;
+  }
+  .todo p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1445px) {
+  main h1 {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 1383px) {
+  main h1 {
+    font-size: 55px;
+  }
+  main h2 {
+    margin: -20px 0px 10px;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .list-item {
+    justify-content: start;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  main h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:1200px){
+
+main{
+  display: block;
+}
+main p{
+ margin: 0 auto;
+  max-width: 1200px;
+  
+
+}
+main h2{
+margin:0px;
+}
+
+
+.giannimain::after{
+  content: 'skills';
+  display: block;
+  text-transform: uppercase;
+  font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    font-size:50px;
+    letter-spacing: 5px;
+    color: #fff;
+    opacity: 0.5;
+    margin-top: 30px;
+   
+    
+ 
+}
+.skillsection ul li{
+  text-align: left;
+  margin: 15px 20px;
+}
+.wordskills{
+  display: none;
+}
+
+.skills{
+  position: absolute;
+  top:-220px;
+  left:770px;
+}
+.lessthan{
+  width: 400px;
+  top: -130px;
+  left: 700px;
+}
+
+}
+
